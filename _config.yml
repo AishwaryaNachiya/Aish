@@ -1,123 +1,134 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: AishwaryaNachiya/modern-resume-theme
+# favicon: images/favicon.ico (optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Aishwarya Nachiya Subramanian
+title: Data Analyst & Machine Learning Enthusiast
+email: aishwaryanachiya.subramanian@students.mq.edu.au
+phone: 0466029515
+website: https://github.com/AishwaryaNachiya
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: AishwaryaNachiya
+linkedin_username: aishwarya-nachiya-subramanian
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_profile_image: images.jpeg
+about_content: |
+  I am a **Data Analyst** with a background in **Machine Learning, NLP, and AI**. I recently completed my **Master of Data Science** at Macquarie University. My work spans **data analysis, retrieval-augmented generation (RAG), and predictive modeling**. Passionate about uncovering insights from data and optimizing workflows through AI-driven automation.
+  
+  **Technical Skills:**
+  - Programming: Python, R, SQL, MySQL, Neo4j, MongoDB
+  - Machine Learning & Data Science: Statistical Modeling, NLP, Big Data
+  - Cloud & Platforms: Azure Cognitive Services, Oracle Cloud
+  - Tools: Power BI, Tableau, Excel, Git, Jupyter Notebook
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: RAG-based Pre-Consultation Reports
+        link: https://github.com/AishwaryaNachiya/Final-Report-COMP8240
+        link_text: GitHub Repo
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub Repo
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/AishwaryaNachiya/Final-Report-COMP8240
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Developed a **Retrieval-Augmented Generation (RAG) system** for medical pre-consultation reports.
+        description: |
+          Integrated **Azure Cognitive Services, LangChain, and ChatGPT-4** to process patient records while ensuring **PII removal**. Enhanced workflow efficiency for **healthcare documentation**.
+
+      - layout: left
+        border: weak
+        title: Stock Market Analysis & Prediction
+        link: https://github.com/AishwaryaNachiya/Stock-Market-Analysis
+        link_text: GitHub Repo
+        additional_links:
+          - title: GitHub Repo
+            icon: fab fa-github
+            url: https://github.com/AishwaryaNachiya/Stock-Market-Analysis
+        quote: >
+          Forecasting **tech stock prices** using **Long Short-Term Memory (LSTM) models**.
+        description: |
+          Extracted data using **yfinance**, performed **time series analysis**, assessed risks, and predicted **future stock prices**.
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: GlobalMedics.AI
+        sub_title: Data Analysis Intern
+        caption: Jan 2024 - June 2024
+        description: |
+          - Built a **RAG model** for **pre-consultation reports** in **Azure Cognitive Search**.
+          - Applied **PII removal techniques** for **healthcare data privacy**.
+          - Automated **structured data extraction** using **Azure Form Recognizer**.
+
+      - layout: right
+        title: OSHC Educator
+        sub_title: Childcare Support
+        caption: April 2024 - Present
+        description: |
+          - Facilitated activities to promote **children's physical, emotional, and social development**.
+          - Ensured compliance with **child safety standards**.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Macquarie University, Sydney
+        sub_title: Master of Data Science
+        caption: 2022 - 2024
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Specialization in **Machine Learning & AI**.
+        description: |
+          Coursework included **Big Data, NLP, Predictive Analytics, and Statistical Modelling**.
+
+      - layout: top-right
+        title: Rajalakshmi Institute of Technology, Chennai
+        sub_title: Bachelor of Engineering (Electronics & Communication)
+        caption: 2017 - 2021
+        description: |
+          Focused on **Signal Processing, Embedded Systems, and Python Programming**.
+
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        title: Microsoft Power BI Certification
+        caption: Ongoing
+        description: |
+          Developing expertise in **data visualization and business intelligence**.
+      - layout: left
+        title: LangChain Chat with Your Data
+        caption: Completed
+        description: |
+          Learned **text preprocessing, tokenization, and retrieval-augmented generation**.
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content: |
+      **Interests:**
+      - Exploring **AI-powered automation**
+      - Cooking & **food tourism**
+      - **Budget-friendly travel** adventures
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -125,16 +136,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
