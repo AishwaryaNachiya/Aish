@@ -1,2 +1,8 @@
 source "https://rubygems.org"
-gemspec
+gem "jekyll", "~> 3.10"
+gem "modern-resume-theme"
+gem "html-proofer"
+gem "parallel"
+gem "rainbow"
+gem "yell"
+gem "public_suffix"
